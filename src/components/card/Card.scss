@@ -1,0 +1,11 @@
+@import "../../scss/colors";
+
+.card {
+    &:hover {
+        background-color: $background-light;
+
+        .cardIcon {
+            background-color: $white;
+        }
+    }
+}

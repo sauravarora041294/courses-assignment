@@ -1,0 +1,30 @@
+@import "../../scss/colors";
+
+.nav-items {
+    li {
+        color: $black;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 1em;
+        padding: 0.5em 0;
+        &.active,
+        &:hover {
+            color: $primary-color-red;
+            border-bottom: solid 3px $primary-color-red;
+        }
+        a {
+            color: $black !important;
+        }
+    }
+}
+
+.nav-btn {
+    background-color: $button-red;
+    border: 2px solid $primary-color-red;
+    color: $primary-color-red;
+}
+
+.nav-icon {
+    height: 3em;
+    width: 3em;
+}

@@ -1,0 +1,10 @@
+.inputLabel {
+    font-weight: bold;
+}
+
+.mobileInput {
+    &.react-tel-input .form-control {
+        width: 220px;
+        height: 37px;
+    }
+}
